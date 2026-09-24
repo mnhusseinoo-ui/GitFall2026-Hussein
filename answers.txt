@@ -1,0 +1,31 @@
+5) git status shows the current state of the working directory it shows things like files modified and staged.
+
+git log shows the history of commits in the repository.
+
+git shortlog gives a short view of the commits and shows who made the chnages and commits.
+
+git log --graph shows the commit history as a graph.
+
+gir log --graph --oneline shows the commit history as a graph with each commit showed in a shorter format.
+
+6) git remote responds by printing out origin. THis is the name of the remote repository.
+
+22) The * shows the branch that i am currently on, I was working on feature1, while main is the main branch.
+
+30)inspirtation.txt was not shown because it was created on feature1 and it hasnt been merged to main yet,
+
+
+33) gitk would not open, it returned a error message saying zsh:  command not found: gitk. 
+
+A) 17 commits have been done to the repository 
+B).gitignore was last modified on September 24, 2026 at 2:59:50
+C) git rev-list -1 --before="2020-06-01" main can be used to find the latest commit before a specific date.
+D) There is one file inside src, file.java it was modified 1 time.
+E) There was 1 addition involved when creating Remove.txt
+F) git log shows the commit history of repository, while git status shows the current state of the working directory and staging area. 
+G)Shows the commit history along with who made the commits and the messages grouped by the author .
+H)The git log -- Main.Java lists the commits in which Main.java was part of.
+I) git log --follow -p -- Main.java
+J)git log --grep="account"'
+K)git log --author="Person Name"
+L)git log --author="Lauren" --since="2014-01-05" --until="2024-01-14"
